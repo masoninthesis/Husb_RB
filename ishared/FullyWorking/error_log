@@ -1,0 +1,171 @@
+[20-Jan-2014 17:59:14 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 17:59:33 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 17:59:56 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:00:11 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:01 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(18): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:16 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:37 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:40 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:44 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:52 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:59 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:13 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:36 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:40 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:42 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:03:38 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:16:25 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LYM2CovzVX2hSbRH077Fo' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[20-Jan-2014 18:16:43 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LYM2CovzVX2hSbRH077Fo' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 14:50:10 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LsE2CovzVX2hSwOZb80uu' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86

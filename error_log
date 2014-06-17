@@ -1,0 +1,360 @@
+[20-Jan-2014 17:59:14 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 17:59:33 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 17:59:56 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:00:11 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:01 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(18): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:16 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(15): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:37 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:40 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:44 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:52 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:01:59 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:13 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:36 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:40 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:02:42 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:03:38 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_CardError' with message 'Cannot charge a customer that has no active card' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:92
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 402, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 402)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Charge.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 92
+[20-Jan-2014 18:16:25 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LYM2CovzVX2hSbRH077Fo' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[20-Jan-2014 18:16:43 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LYM2CovzVX2hSbRH077Fo' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 19:52:09 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103Lx82CovzVX2hSnObBmXWz' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 19:54:21 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LxA2CovzVX2hSa6MGJU47' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 19:54:25 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103LxA2CovzVX2hSa6MGJU47' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 19:55:25 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103Lx72CovzVX2hSWeXc1fSg' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 19:55:28 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'You cannot use a Stripe token more than once: tok_103Lx72CovzVX2hSWeXc1fSg' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:30:20 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxl2eZvKYlo2CcJueHQlF. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:30:53 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxm2eZvKYlo2CNOCGDgPp. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:31:48 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxn2eZvKYlo2CfcvItxSr. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:32:15 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxn2eZvKYlo2CU21wDqPI. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/ship.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:34:19 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxp2eZvKYlo2C6TR4di0O. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:39:04 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxu2eZvKYlo2CHYCgwHs4. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[21-Jan-2014 20:39:29 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103Lxv2eZvKYlo2Cg7fbRbgr. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 19:25:24 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MJx2eZvKYlo2C3lpgboG6. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:02:26 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKY2eZvKYlo2Cqr6TtBnb. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:03:51 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKY2eZvKYlo2Cqr6TtBnb. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:04:57 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKa2eZvKYlo2CDCwy2NWE. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:07:28 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKd2eZvKYlo2CUdpEQszV. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:08:38 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKd2eZvKYlo2CUdpEQszV. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:12:37 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKd2eZvKYlo2CUdpEQszV. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(13): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:12:49 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKd2eZvKYlo2CUdpEQszV. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(13): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:15:09 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKk2eZvKYlo2CxiC7nRAB. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/charge.php(13): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
+[22-Jan-2014 20:16:15 America/New_York] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid token id: tok_103MKl2eZvKYlo2CyooZmDLg. The publishable key used to create this token is from a different account.' in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php:86
+Stack trace:
+#0 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(136): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php(74): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiResource.php(76): Stripe_ApiRequestor->request('post', '/v1/customers', Array)
+#3 /home/jackuksf/public_html/rossbrown/lib/Stripe/Customer.php(26): Stripe_ApiResource::_scopedCreate('Stripe_Customer', Array, NULL)
+#4 /home/jackuksf/public_html/rossbrown/ship.php(12): Stripe_Customer::create(Array)
+#5 {main}
+  thrown in /home/jackuksf/public_html/rossbrown/lib/Stripe/ApiRequestor.php on line 86
